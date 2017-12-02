@@ -4,11 +4,9 @@ class InverseCaptchaTest < Test::Unit::TestCase
   def test_base_1
     assert_equal(inverse_captcha(1122), 3)
   end
-
   def test_base_2
     assert_equal(inverse_captcha(1111), 4)
   end
-
   def test_base_3
     assert_equal(inverse_captcha(1234), 0)
   end
